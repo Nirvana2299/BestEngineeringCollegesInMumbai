@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_centerInParent="true"
+    tools:context=".Main15Activity"
+    android:background="@drawable/app"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Thandomal Shahani Engineering College "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:padding="10dp"
+                android:background="@drawable/tha" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thadomal Shahani Engineering College is an engineering and research institute in Mumbai, India. Founded in 1983, the year in which the Government of Maharashtra granted permission to start private ."
+                android:background="#ffffff"
+                android:textSize="15sp"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address: W, P. G. Kher Marg, (32nd Road, Marg, Off Linking Rd, TPS-III, Bandra West, Mumbai, Maharashtra 400050"
+                android:background="#ffffff"
+                android:textSize="15sp"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Principal: G. T. Thampi"
+                android:background="#ffffff"
+                android:textSize="15sp"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:padding="10dp"
+                android:text="Campus: Urban"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Founded: 1983"
+                android:background="#ffffff"
+                android:textSize="15sp"
+                android:padding="10dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:id="@+id/cw1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="25dp"
+                    app:cardCornerRadius="25dp">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/map" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:id="@+id/cw2"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    app:cardCornerRadius="25dp">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/website" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:id="@+id/cw3"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    app:cardCornerRadius="25dp">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/call" />
+
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+            </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

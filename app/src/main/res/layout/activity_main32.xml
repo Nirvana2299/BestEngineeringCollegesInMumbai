@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_centerInParent="true"
+    tools:context=".Main19Activity"
+    android:background="@drawable/saimbardi"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/twtnm"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Top Colleges"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp" />
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:id="@+id/tc1"
+                android:layout_marginTop="35dp"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="1)Indian Institute Of Technology, Bombay"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"/>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:id="@+id/tc2"
+                android:layout_marginTop="45dp"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="2)Veermata Jijabai Technological Institute"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:id="@+id/tc3"
+                android:layout_marginTop="45dp"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="3) Vivekanand Education Society's Institute Of Technology"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:id="@+id/tc4"
+                android:layout_marginTop="45dp"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="4)Sardar Patel Institute Of Technology"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:id="@+id/tc5"
+                android:layout_marginTop="45dp"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="5)K.J.Somaiya College Of Engineering"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp" />
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:id="@+id/tc6"
+                android:layout_marginTop="45dp"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="6)Dwarkadas Jivanlal Sanjhavi College Of Engineering "
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:id="@+id/tc7"
+                android:layout_marginTop="45dp"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="7)Vidyalankar Institute Of Technology"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp" />
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:id="@+id/tc8"
+                android:layout_marginTop="45dp"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="8)Thadomal Shahani Engineering College"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:id="@+id/tc9"
+                android:layout_marginTop="45dp"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="9)Rajiv Gandhi Institute Of Technology "
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:id="@+id/tc10"
+                android:layout_marginTop="45dp"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="10)Thakur College Of Engineering And Technology "
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:id="@+id/tc11"
+                android:layout_marginTop="45dp"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="11)Rizvi College Of Engineering, Mumbai "
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:id="@+id/tc12"
+                android:layout_marginTop="45dp"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="12)M.H.Saboo Siddik College Of Engineering "
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp" />
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:id="@+id/tc13"
+                android:layout_marginTop="45dp"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="13)Bharti Vidyapeeth College Of Engineering "
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:id="@+id/tc14"
+                android:layout_marginTop="45dp"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="14)A.C. Patil College Of Engineering "
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp" />
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

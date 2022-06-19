@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_centerInParent="true"
+    tools:context=".Main19Activity"
+    android:background="@drawable/saimbardi"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/twtnm"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Thane / Navi Mumbai"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="THANE:-"
+                android:background="#FFFFFF"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:layout_marginTop="25dp"
+                />
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:id="@+id/tnm1"
+                android:layout_marginTop="35dp"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="KC College Of Engineering, Thane"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"/>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:id="@+id/tnm2"
+                android:layout_marginTop="45dp"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Shivajirao S.Jondhale College Of Engineering, Thane"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:id="@+id/tnm3"
+                android:layout_marginTop="45dp"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Alamuri Ratanamala Institute Of Engineering And Technology"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:id="@+id/tnm4"
+                android:layout_marginTop="45dp"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Universal College Of Engineering, Thane"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:id="@+id/tnm5"
+                android:layout_marginTop="45dp"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Bharat College Of Engineering, Thane "
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp" />
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="NAVI MUMBAI:-"
+                android:background="#FFFFFF"
+                android:textSize="30sp"
+                android:layout_marginTop="25dp"
+                />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:id="@+id/tnm6"
+                android:layout_marginTop="45dp"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Lokmanya Tilak College Of Engineering "
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:id="@+id/tnm7"
+                android:layout_marginTop="45dp"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Pillai College Of Engineering, Navi Mumbai"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp" />
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:id="@+id/tnm8"
+                android:layout_marginTop="45dp"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Smt.Indira Gandhi College Of Engineering."
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:id="@+id/tnm9"
+                android:layout_marginTop="45dp"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Anjuman Islam's Kalsekar Technical Campus School Of Engineering And Technology. "
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:id="@+id/tnm10"
+                android:layout_marginTop="45dp"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Datta Meghe College Of Engineering, Navi Mumbai "
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:id="@+id/tnm11"
+                android:layout_marginTop="45dp"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Bharti Vidyapeeth College Of Engineering "
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:id="@+id/tnm12"
+                android:layout_marginTop="45dp"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="A.C.Patil College Of Engineering, Navi Mumbai "
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp" />
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
